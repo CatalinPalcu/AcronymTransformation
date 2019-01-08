@@ -7,6 +7,7 @@ namespace AcronymTransformation
     {
         public static void Main(string[] args)
         {
+            //Console.WriteLine("Avoid this");
             Console.WriteLine($"Portable Network Graphics transform in: {Acronim.TransformInAcronym(" Portable           Network Graphics ")}");
 
             string s = "( Three Letter Acronyms ) Help generate some jargon by writing Three , Letter : Acronyms a program that converts a long name like Portable Network Graphics  to its acronym.";
